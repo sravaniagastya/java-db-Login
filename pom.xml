@@ -8,12 +8,7 @@
   <version>1.1</version>
   <name>LoginRegisterApp Maven Webapp</name>
   <url>http://maven.apache.org</url>
-	
-<properties>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
-</properties>
-	
+  
   <dependencies>
     <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 	<dependency>
@@ -24,7 +19,7 @@
     <dependency>
 	    <groupId>javax.servlet</groupId>
 	    <artifactId>javax.servlet-api</artifactId>
-	    <version>4.0.1</version>
+	    <version>3.0.1</version>
 	  <!--  <scope>provided</scope> -->
     </dependency>
     <dependency>
@@ -37,6 +32,5 @@
   
   <build>
     <finalName>LoginRegisterApp</finalName>
-	  
-
+  </build>
 </project>
